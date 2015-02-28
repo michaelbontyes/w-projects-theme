@@ -1,0 +1,32 @@
+{
+  "name": "flagshipwp/woodd",
+  "description": "The most advanced WordPress Starter theme ever created.",
+  "keywords": ["wordpress", "theme", "flagship"],
+  "homepage": "https://flagshipwp.com",
+  "type": "wordpress-theme",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Robert Neu",
+      "email": "rob@flagshipwp.com",
+      "homepage": "https://flagshipwp.com"
+    },
+    {
+      "name": "Gary Jones",
+      "homepage": "http://gamajo.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/flagshipwp/woodd/issues",
+    "forum": "http://community.flagshipwp.com/category/woodd"
+  },
+  "config": {
+    "vendor-dir": "assets/composer"
+  },
+  "require": {
+    "justintadlock/hybrid-core": "~2.0",
+    "flagshipwp/flagship-library": "~1.3",
+    "zamoose/themehookalliance": "dev-master",
+    "composer/installers": "~1.0"
+  }
+}
